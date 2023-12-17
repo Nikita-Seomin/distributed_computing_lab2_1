@@ -1,0 +1,17 @@
+"D:\CLion\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=D:/CLion/CLion 2023.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\c_projs\lab2.2 -B D:\c_projs\lab2.2\cmake-build-release
+-- The C compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/CLion/CLion 2023.2.1/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Could NOT find MPI_C (missing: MPI_C_LIB_NAMES MPI_C_HEADER_DIR MPI_C_WORKS) 
+CMake Error at D:/CLion/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+  Could NOT find MPI (missing: MPI_C_FOUND)
+Call Stack (most recent call first):
+  D:/CLion/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:600 (_FPHSA_FAILURE_MESSAGE)
+  D:/CLion/CLion 2023.2.1/bin/cmake/win/x64/share/cmake-3.26/Modules/FindMPI.cmake:1837 (find_package_handle_standard_args)
+  CMakeLists.txt:7 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
